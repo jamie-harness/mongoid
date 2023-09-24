@@ -15,5 +15,6 @@ if RUBY_PLATFORM =~ /java/
   # https://github.com/jruby/jruby/issues/6573
   i18n_versions << '< 1.8.8'
 end
+gem 'rspec_junit_formatter'
 
 gem 'i18n', *i18n_versions
